@@ -1,22 +1,22 @@
 
-interface Car {
-    wheels:number; color:string
-}
+// interface Car {
+//     wheels:number; color:string
+// }
 
-const car :Car = {wheels:4, color:'white'}
+// const car :Car = {wheels:4, color:'white'}
 
-interface Fruits {
-name:string;
-color:string;
-calories:string;
-[nutrients:string]:string
-}
-//extends additional properties
+// interface Fruits {
+// name:string;
+// color:string;
+// calories:string;
+// [nutrients:string]:string
+// }
+// //extends additional properties
 
 
-const apple:Fruits = {name:'apple', color:'red', calories:'5'}
+// const apple:Fruits = {name:'apple', color:'red', calories:'5'}
 
-apple.vitaminA="50mg"
+// apple.vitaminA="50mg"
 
 
 
@@ -40,3 +40,5 @@ function seasonsGreetings (season:Seasons){
 }
 
 seasonsGreetings(Seasons.spring)
+
+//unions
